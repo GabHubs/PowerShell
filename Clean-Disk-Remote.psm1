@@ -1,7 +1,7 @@
 function Clean-Disk-Remote {
 <#
 .SYNOPSIS
-    Ce script va nettoyer différents cache de tous les profils des utilisateurs d'une machine à distance. Ce script a été conçu dans un environnement où le protocole WinRM est bloqué.
+    Ce script va nettoyer différents cache de tous les profils des utilisateurs d'une machine à distance.
  
 .NOTES
     Name: Clean-Disk-Remote
@@ -10,7 +10,7 @@ function Clean-Disk-Remote {
     DateCreated: 2020-Aug-5
  
  .DESCRIPTION
-    Ce script liste l'ensemble des dossiers utilisateur
+   Ce script liste l'ensemble des dossiers utilisateurs et efface la cache de différents éléments dans ceux-ci. Ce script a été conçu dans un environnement où le protocole WinRM est bloqué.
 
 .LINK
     https://github.com/gabhubert91/PowerShell
