@@ -19,7 +19,7 @@ function Disable-ExpiredAccount{
 .EXAMPLE
     Disable-ExpiredAccount -logs "C:\test.txt"
   
-.PARAMETER Computer
+.PARAMETER logs
     Préciser l'emplacement où les logs seront placés
 #>
 
