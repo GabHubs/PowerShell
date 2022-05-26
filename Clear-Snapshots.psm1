@@ -13,10 +13,10 @@ function Clear-Snapshots{
    Ce script a été conçu afin d'être combiné avec une tâche planifiée dans le but de supprimer systématiquement les snapshots plus vieux qu'un nombre de jour donné. À noter que PowerCLI doit être installé sur votre système et que la tâche planifiée doit appelé ce programme et non PowerShell.exe.
 
 .LINK
-    https://github.com/gabhubert91/PowerShell
+    https://github.com/GabHubs/PowerShell
 
 .EXAMPLE
-    
+    Clear-Snapshots -VIServer SRV-vCenter -Days 7
   
 .PARAMETER Days
     Préciser l'âge des snapshot à supprimer en nombre de jour
