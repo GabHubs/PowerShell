@@ -14,7 +14,7 @@ function Disable-ExpiredAccount{
    Ce script a été conçu dans une organisation où la date d'expiration d'un compte AD est utilisée et où il existe une syncronisation entre Active Directory "local" et AzureAD. Comme ce champ n'existe pas dans AzureAD, il était nécessaire de s'assurer que les comptes expirés soient désactivés.
 
 .LINK
-    https://github.com/gabhubert91/PowerShell
+    https://github.com/GabHubs/PowerShell
 
 .EXAMPLE
     Disable-ExpiredAccount -logs "C:\test.txt"
