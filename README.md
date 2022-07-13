@@ -7,7 +7,10 @@ de la consultation de ceux-ci, tous les scripts ont été convertis sous forme d
 
 VMWare - PowerCLI
 -------------
-- Clear-Snapshot : Ce script a été conçu afin d'être combiné avec vRealize Orchestrator (ou simplement une tâche planifiée) dans le but de supprimer systématiquement les snapshots plus vieux qu'un nombre de jour donné.
+Travaillant au quotidien avec une infrastructure VMware, la nécessité d'exploiter PowerCLI fut rapidement une évidence. La majorité des scripts ci-dessous ont été 
+écrit dans l'optique d'être utilisé avec vRealize Orchestrator ou simplement une tâche planifiée.
+
+- Clear-Snapshot : Ce script a été conçu dans le but de supprimer systématiquement les snapshots plus vieux qu'un nombre de jour donné.
 
 AD DS 
 -------------
