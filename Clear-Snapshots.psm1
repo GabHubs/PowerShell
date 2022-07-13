@@ -10,8 +10,7 @@ function Clear-Snapshots{
     Date: 2022-04-05
  
  .DESCRIPTION
-   Ce script a été conçu afin d'être combiné avec une tâche planifiée dans le but de supprimer systématiquement les snapshots plus vieux qu'un nombre de jour donné. À noter que PowerCLI doit être installé sur votre système et que la tâche planifiée doit appelé ce programme et non PowerShell.exe.
-
+   Ce script a été conçu afin d'être combiné avec vRealize Orchestrator (ou simplement une tâche planifiée) dans le but de supprimer systématiquement les snapshots plus vieux qu'un nombre de jour donné.
 .LINK
     https://github.com/GabHubs/PowerShell
 
