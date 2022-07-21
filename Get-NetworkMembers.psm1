@@ -1,7 +1,7 @@
 function Get-NetworkMembers(){
 <#
 .SYNOPSIS
-    Lance un analyse des adresse IP d'une passerelle donnée
+    Lance une analyse des adresses IP d'une passerelle donnée
 .NOTES
     Name: Get-NetworkMembers
     Author: Gabriel Hubert-St-Onge
@@ -9,7 +9,7 @@ function Get-NetworkMembers(){
     DateCreated: 2022-07-21
  
  .DESCRIPTION
-    Ce module test si chacune des adresses IP possibles extrait à partir d'une passerelle fournie par l'utilisateur est accessible. Si c'est le cas, le nom DNS est fourni.
+    Ce module test si chacune des adresses IP possibles extraites à partir d'une passerelle fournie par l'utilisateur est accessible. Si c'est le cas, le nom DNS est fourni. 
 .LINK
     https://github.com/gabhubs/PowerShell
 .EXAMPLE
