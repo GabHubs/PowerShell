@@ -10,7 +10,9 @@ function Scan-RemoteComputer {
     DateCreated: 2020-Nov-09
  
  .DESCRIPTION
-    Ce script télécharge la version portable de Microsoft Safety Scan, le copie sur le système à distance, procede au à l'analyse et génère un rapport. À noter que script a été conçu dans un environnement où le protocole WinRM est bloqué et que les droits d'administration de la machine local et distante sont nécessaire au bon fonctionnement. 
+    Ce script télécharge la version portable de Microsoft Safety Scan, le copie sur le système à distance, 
+    procede au à l'analyse et génère un rapport. À noter que les droits d'administration de la machine local 
+    et distante sont nécessaire au bon fonctionnement. 
 
 .LINK
     https://github.com/gabhubs/PowerShell
