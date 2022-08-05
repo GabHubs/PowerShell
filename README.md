@@ -12,7 +12,7 @@ Travaillant au quotidien avec une infrastructure VMware, la nécessité d'exploi
 
 AD DS 
 -------------
-- Disable-ExpiredAccount : Ce script a été conçu dans une organisation où la date d'expiration d'un compte AD est utilisée et où il existe une synchronisation entre Active Directory "local" et AzureAD. Comme ce champ n'existe pas dans AzureAD, il était nécessaire de s'assurer que les comptes expirés soient désactivés.
+- Disable-ExpiredAccount : Comme la date d'expiration d'un compte AD n'est pas un champ synchronisé dans AzureAD au moment d'écrire ce script, il est nécessaire de désactiver les comptes expirés de l'active directory afin de s'assurer que ces comptes ne soient pas accessible par AzureAD. 
 
 - Get-NetworkMembers : Ce script test si chacune des adresses IP possibles extraites à partir d'une passerelle fournie par l'utilisateur est accessible. Si c'est le cas, le nom DNS est fourni. 
 
