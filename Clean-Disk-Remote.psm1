@@ -10,7 +10,7 @@ function Clean-Disk-Remote {
     DateCreated: 2020-Aug-5
  
  .DESCRIPTION
-   Ce script liste l'ensemble des dossiers utilisateurs et efface la cache de différents éléments dans ceux-ci. Ce script a été conçu dans un environnement où le protocole WinRM est bloqué.
+   Ce script liste l'ensemble des dossiers utilisateurs et efface la cache de différents éléments dans ceux-ci.
 
 .LINK
     https://github.com/GabHubs/PowerShell
