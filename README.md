@@ -20,4 +20,8 @@ Windows OS
 -------------
 - Clean-Disk-Remote : Ce script liste l'ensemble des dossiers utilisateurs et efface la cache de différents éléments dans ceux-ci. Ce script a été conçu dans un environnement où le protocole WinRM est bloqué.
 
-- Scan-RemoteComputer : Ce script télécharge une version portable de Microsoft Safety Scan, le copie sur le système à distance, procède à l'analyse et génère un rapport. À noter que script a été conçu dans un environnement où le protocole WinRM est bloqué. 
+- Scan-RemoteComputer : Ce script télécharge une version portable de Microsoft Safety Scan, le copie sur le système à distance, procède à l'analyse et génère un rapport. À noter que ce script n'utilise pas le protocole WinRM.
+
+Autres
+-------------
+- Set-SimpleCryptolocker : (POC) - Ce script va encrypter les fichiers le plus volumineux accessibles dans les partages SMB du profil exécutant la présente fonction
