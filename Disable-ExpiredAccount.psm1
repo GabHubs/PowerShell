@@ -12,7 +12,7 @@ function Disable-ExpiredAccount{
  
  .DESCRIPTION
    Comme la date d'expiration d'un compte AD n'est pas un champ synchronisé dans AzureAD au moment d'écrire ce script, il est nécessaire 
-   de désactivater les comptes expirés de l'active directory afin de s'assurer que ces comptes ne soient
+   de désactiver les comptes expirés de l'active directory afin de s'assurer que ces comptes ne soient
    pas accessible par AzureAD. 
 
 .LINK
